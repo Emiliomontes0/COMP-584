@@ -1,0 +1,14 @@
+C:\Users\eam70043\source\repos\serverproject\modeldb\bin\Debug\net8.0\modelDB.deps.json
+C:\Users\eam70043\source\repos\serverproject\modeldb\bin\Debug\net8.0\modelDB.dll
+C:\Users\eam70043\source\repos\serverproject\modeldb\bin\Debug\net8.0\modelDB.pdb
+C:\Users\eam70043\source\repos\serverproject\modeldb\obj\Debug\net8.0\modelDB.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\eam70043\source\repos\serverproject\modeldb\obj\Debug\net8.0\modelDB.AssemblyInfoInputs.cache
+C:\Users\eam70043\source\repos\serverproject\modeldb\obj\Debug\net8.0\modelDB.AssemblyInfo.cs
+C:\Users\eam70043\source\repos\serverproject\modeldb\obj\Debug\net8.0\modelDB.csproj.CoreCompileInputs.cache
+C:\Users\eam70043\source\repos\serverproject\modeldb\obj\Debug\net8.0\modelDB.dll
+C:\Users\eam70043\source\repos\serverproject\modeldb\obj\Debug\net8.0\refint\modelDB.dll
+C:\Users\eam70043\source\repos\serverproject\modeldb\obj\Debug\net8.0\modelDB.pdb
+C:\Users\eam70043\source\repos\serverproject\modeldb\obj\Debug\net8.0\ref\modelDB.dll
+C:\Users\eam70043\source\repos\serverproject\modeldb\bin\Debug\net8.0\modelDB.runtimeconfig.json
+C:\Users\eam70043\source\repos\serverproject\modeldb\obj\Debug\net8.0\modelDB.genruntimeconfig.cache
+C:\Users\eam70043\source\repos\serverproject\modeldb\obj\Debug\net8.0\modelDB.csproj.AssemblyReference.cache
