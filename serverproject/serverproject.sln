@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.11.35222.181
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "serverproject", "serverproject\serverproject.csproj", "{87E8B243-D6BD-4127-87D0-04217C8106C6}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B300F947-C26D-4325-88F8-F27FB5046108} = {B300F947-C26D-4325-88F8-F27FB5046108}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "modelDB", "modeldb\modelDB.csproj", "{B300F947-C26D-4325-88F8-F27FB5046108}"
 EndProject
