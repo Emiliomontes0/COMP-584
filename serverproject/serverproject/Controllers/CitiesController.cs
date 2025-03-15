@@ -20,7 +20,7 @@ namespace serverproject.Controllers
         [HttpGet]
         public async Task<ActionResult<IEnumerable<City>>> GetCities()
         {
-            return await _context.Cities.ToListAsync();
+            return await _context.Cities.Take(100).ToListAsync();
         }
 
         [HttpGet("citycountry")]
@@ -30,9 +30,9 @@ namespace serverproject.Controllers
                 new CityCountry
                 {
                     Id = city.Id,
-                    City1 = city.City1,
+                    City1 = city.Name,
                     Population = city.Population,
-                    Country1 = city.Country.Country1
+                    Country1 = city.Country.Name
                 }
             ).ToListAsync();
         }

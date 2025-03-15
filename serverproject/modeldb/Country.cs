@@ -10,12 +10,13 @@ namespace modelDB;
 public partial class Country
 {
     [Key]
+    [Column("Id")]
     public int Id { get; set; }
 
     [Column("country")]
     [StringLength(50)]
     [Unicode(false)]
-    public string Country1 { get; set; } = null!;
+    public string Name { get; set; } = null!;
 
     [Column("iso2")]
     [StringLength(2)]

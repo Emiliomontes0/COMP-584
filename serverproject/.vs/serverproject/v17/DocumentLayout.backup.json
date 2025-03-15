@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\eam70043\\source\\repos\\serverproject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{87E8B243-D6BD-4127-87D0-04217C8106C6}|serverproject\\serverproject.csproj|c:\\users\\eam70043\\source\\repos\\serverproject\\serverproject\\controllers\\seedcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87E8B243-D6BD-4127-87D0-04217C8106C6}|serverproject\\serverproject.csproj|solutionrelative:serverproject\\controllers\\seedcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{87E8B243-D6BD-4127-87D0-04217C8106C6}|serverproject\\serverproject.csproj|c:\\users\\eam70043\\source\\repos\\serverproject\\serverproject\\controllers\\countriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87E8B243-D6BD-4127-87D0-04217C8106C6}|serverproject\\serverproject.csproj|solutionrelative:serverproject\\controllers\\countriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87E8B243-D6BD-4127-87D0-04217C8106C6}|serverproject\\serverproject.csproj|c:\\users\\eam70043\\source\\repos\\serverproject\\serverproject\\dtos\\countrypopulation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87E8B243-D6BD-4127-87D0-04217C8106C6}|serverproject\\serverproject.csproj|solutionrelative:serverproject\\dtos\\countrypopulation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{87E8B243-D6BD-4127-87D0-04217C8106C6}|serverproject\\serverproject.csproj|c:\\users\\eam70043\\source\\repos\\serverproject\\serverproject\\controllers\\citiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{87E8B243-D6BD-4127-87D0-04217C8106C6}|serverproject\\serverproject.csproj|solutionrelative:serverproject\\controllers\\citiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87E8B243-D6BD-4127-87D0-04217C8106C6}|serverproject\\serverproject.csproj|c:\\users\\eam70043\\source\\repos\\serverproject\\serverproject\\dtos\\citycountry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87E8B243-D6BD-4127-87D0-04217C8106C6}|serverproject\\serverproject.csproj|solutionrelative:serverproject\\dtos\\citycountry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +26,56 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "SeedController.cs",
-              "DocumentMoniker": "C:\\Users\\eam70043\\source\\repos\\serverproject\\serverproject\\Controllers\\SeedController.cs",
-              "RelativeDocumentMoniker": "serverproject\\Controllers\\SeedController.cs",
-              "ToolTip": "C:\\Users\\eam70043\\source\\repos\\serverproject\\serverproject\\Controllers\\SeedController.cs",
-              "RelativeToolTip": "serverproject\\Controllers\\SeedController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "CountryPopulation.cs",
+              "DocumentMoniker": "C:\\Users\\eam70043\\source\\repos\\serverproject\\serverproject\\Dtos\\CountryPopulation.cs",
+              "RelativeDocumentMoniker": "serverproject\\Dtos\\CountryPopulation.cs",
+              "ToolTip": "C:\\Users\\eam70043\\source\\repos\\serverproject\\serverproject\\Dtos\\CountryPopulation.cs",
+              "RelativeToolTip": "serverproject\\Dtos\\CountryPopulation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-01T01:52:57.094Z",
+              "WhenOpened": "2025-03-08T01:46:49.828Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
+              "Title": "CityCountry.cs",
+              "DocumentMoniker": "C:\\Users\\eam70043\\source\\repos\\serverproject\\serverproject\\Dtos\\CityCountry.cs",
+              "RelativeDocumentMoniker": "serverproject\\Dtos\\CityCountry.cs",
+              "ToolTip": "C:\\Users\\eam70043\\source\\repos\\serverproject\\serverproject\\Dtos\\CityCountry.cs",
+              "RelativeToolTip": "serverproject\\Dtos\\CityCountry.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T01:45:12.217Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "CitiesController.cs",
               "DocumentMoniker": "C:\\Users\\eam70043\\source\\repos\\serverproject\\serverproject\\Controllers\\CitiesController.cs",
               "RelativeDocumentMoniker": "serverproject\\Controllers\\CitiesController.cs",
               "ToolTip": "C:\\Users\\eam70043\\source\\repos\\serverproject\\serverproject\\Controllers\\CitiesController.cs",
               "RelativeToolTip": "serverproject\\Controllers\\CitiesController.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAQwFoAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwCEAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-01T01:25:49.769Z",
+              "WhenOpened": "2025-03-08T01:07:58.615Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CountriesController.cs",
+              "DocumentMoniker": "C:\\Users\\eam70043\\source\\repos\\serverproject\\serverproject\\Controllers\\CountriesController.cs",
+              "RelativeDocumentMoniker": "serverproject\\Controllers\\CountriesController.cs",
+              "ToolTip": "C:\\Users\\eam70043\\source\\repos\\serverproject\\serverproject\\Controllers\\CountriesController.cs*",
+              "RelativeToolTip": "serverproject\\Controllers\\CountriesController.cs*",
+              "ViewState": "AgIAACYAAAAAAAAAAAAwwDgAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-08T01:09:50.449Z",
               "EditorCaption": ""
             }
           ]

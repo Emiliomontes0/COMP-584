@@ -24,19 +24,28 @@ namespace modelDB.Migrations
             modelBuilder.Entity("modelDB.City", b =>
                 {
                     b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .HasColumnName("id");
 
-                    b.Property<string>("City1")
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("Countryid")
+                        .HasColumnType("int")
+                        .HasColumnName("countryid");
+
+                    b.Property<decimal>("Lat")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<decimal>("Lon")
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<string>("Name")
                         .IsRequired()
                         .HasMaxLength(50)
                         .IsUnicode(false)
                         .HasColumnType("varchar(50)")
                         .HasColumnName("city");
-
-                    b.Property<int>("Countryid")
-                        .HasColumnType("int")
-                        .HasColumnName("countryid");
 
                     b.Property<int>("Population")
                         .HasColumnType("int")
@@ -53,16 +62,10 @@ namespace modelDB.Migrations
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
+                        .HasColumnType("int")
+                        .HasColumnName("Id");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<string>("Country1")
-                        .IsRequired()
-                        .HasMaxLength(50)
-                        .IsUnicode(false)
-                        .HasColumnType("varchar(50)")
-                        .HasColumnName("country");
 
                     b.Property<string>("Iso2")
                         .IsRequired()
@@ -79,6 +82,13 @@ namespace modelDB.Migrations
                         .HasColumnType("char(3)")
                         .HasColumnName("iso3")
                         .IsFixedLength();
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .IsUnicode(false)
+                        .HasColumnType("varchar(50)")
+                        .HasColumnName("country");
 
                     b.HasKey("Id")
                         .HasName("PK_single");
