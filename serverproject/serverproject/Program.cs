@@ -1,5 +1,7 @@
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using modelDB;
+using modelDB.Migrations;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,6 +14,9 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<WorldCitySourceContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnections"))
 );
+
+builder.Services.AddIdentity<WorldCityUser, IdentityRole>()
+    .AddEntityFrameworkStores<WorldCitySourceContext>();
 
 var app = builder.Build();
 

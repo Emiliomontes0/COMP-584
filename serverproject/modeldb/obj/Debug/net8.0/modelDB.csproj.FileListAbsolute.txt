@@ -12,3 +12,4 @@ C:\Users\eam70043\source\repos\serverproject\modeldb\obj\Debug\net8.0\ref\modelD
 C:\Users\eam70043\source\repos\serverproject\modeldb\bin\Debug\net8.0\modelDB.runtimeconfig.json
 C:\Users\eam70043\source\repos\serverproject\modeldb\obj\Debug\net8.0\modelDB.genruntimeconfig.cache
 C:\Users\eam70043\source\repos\serverproject\modeldb\obj\Debug\net8.0\modelDB.csproj.AssemblyReference.cache
+C:\Users\eam70043\source\repos\serverproject\modeldb\bin\Debug\net8.0\appsettings.json

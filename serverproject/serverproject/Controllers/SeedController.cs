@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using CsvHelper;
 using CsvHelper.Configuration;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using modelDB;
@@ -15,9 +16,30 @@ namespace serverproject.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class SeedController(WorldCitySourceContext context, IHostEnvironment environment) : ControllerBase
+    public class SeedController(WorldCitySourceContext context, IHostEnvironment environment,
+        UserManager<WorldCityUser> userManager) : ControllerBase
     {
-        string _pathName = Path.Combine(environment.ContentRootPath, "Data/worldcities.csv"); 
+        string _pathName = Path.Combine(environment.ContentRootPath, "Data/worldcities.csv");
+
+
+
+        [HttpPost("Users")]
+        public async Task ImportUsersAsync()
+        {
+            WorldCityUser user = new()
+            {
+                UserName = "user",
+                Email = "user@gmail.com",
+                SecurityStamp = Guid.NewGuid().ToString()
+            };
+
+            IdentityResult x = await userManager.CreateAsync(user, "Passw0rd!");
+
+            int y = await context.SaveChangesAsync();
+        }
+
+
+
         [HttpPost("Country")]
         public async Task<ActionResult> ImportCountriesAsync()
         {

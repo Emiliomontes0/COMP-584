@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\eam70043\\source\\repos\\serverproject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{87E8B243-D6BD-4127-87D0-04217C8106C6}|serverproject\\serverproject.csproj|c:\\users\\eam70043\\source\\repos\\serverproject\\serverproject\\controllers\\countriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87E8B243-D6BD-4127-87D0-04217C8106C6}|serverproject\\serverproject.csproj|solutionrelative:serverproject\\controllers\\countriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B300F947-C26D-4325-88F8-F27FB5046108}|modeldb\\modelDB.csproj|c:\\users\\eam70043\\source\\repos\\serverproject\\modeldb\\worldcitysourcecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B300F947-C26D-4325-88F8-F27FB5046108}|modeldb\\modelDB.csproj|solutionrelative:modeldb\\worldcitysourcecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87E8B243-D6BD-4127-87D0-04217C8106C6}|serverproject\\serverproject.csproj|c:\\users\\eam70043\\source\\repos\\serverproject\\serverproject\\dtos\\countrypopulation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87E8B243-D6BD-4127-87D0-04217C8106C6}|serverproject\\serverproject.csproj|solutionrelative:serverproject\\dtos\\countrypopulation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{87E8B243-D6BD-4127-87D0-04217C8106C6}|serverproject\\serverproject.csproj|c:\\users\\eam70043\\source\\repos\\serverproject\\serverproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87E8B243-D6BD-4127-87D0-04217C8106C6}|serverproject\\serverproject.csproj|solutionrelative:serverproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87E8B243-D6BD-4127-87D0-04217C8106C6}|serverproject\\serverproject.csproj|c:\\users\\eam70043\\source\\repos\\serverproject\\serverproject\\controllers\\citiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87E8B243-D6BD-4127-87D0-04217C8106C6}|serverproject\\serverproject.csproj|solutionrelative:serverproject\\controllers\\citiescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87E8B243-D6BD-4127-87D0-04217C8106C6}|serverproject\\serverproject.csproj|c:\\users\\eam70043\\source\\repos\\serverproject\\serverproject\\dtos\\citycountry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87E8B243-D6BD-4127-87D0-04217C8106C6}|serverproject\\serverproject.csproj|solutionrelative:serverproject\\dtos\\citycountry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{87E8B243-D6BD-4127-87D0-04217C8106C6}|serverproject\\serverproject.csproj|c:\\users\\eam70043\\source\\repos\\serverproject\\serverproject\\controllers\\seedcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87E8B243-D6BD-4127-87D0-04217C8106C6}|serverproject\\serverproject.csproj|solutionrelative:serverproject\\controllers\\seedcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,56 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "CountryPopulation.cs",
-              "DocumentMoniker": "C:\\Users\\eam70043\\source\\repos\\serverproject\\serverproject\\Dtos\\CountryPopulation.cs",
-              "RelativeDocumentMoniker": "serverproject\\Dtos\\CountryPopulation.cs",
-              "ToolTip": "C:\\Users\\eam70043\\source\\repos\\serverproject\\serverproject\\Dtos\\CountryPopulation.cs",
-              "RelativeToolTip": "serverproject\\Dtos\\CountryPopulation.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAqAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\eam70043\\source\\repos\\serverproject\\serverproject\\Program.cs",
+              "RelativeDocumentMoniker": "serverproject\\Program.cs",
+              "ToolTip": "C:\\Users\\eam70043\\source\\repos\\serverproject\\serverproject\\Program.cs",
+              "RelativeToolTip": "serverproject\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T01:46:49.828Z",
+              "WhenOpened": "2025-03-29T00:45:02.055Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CityCountry.cs",
-              "DocumentMoniker": "C:\\Users\\eam70043\\source\\repos\\serverproject\\serverproject\\Dtos\\CityCountry.cs",
-              "RelativeDocumentMoniker": "serverproject\\Dtos\\CityCountry.cs",
-              "ToolTip": "C:\\Users\\eam70043\\source\\repos\\serverproject\\serverproject\\Dtos\\CityCountry.cs",
-              "RelativeToolTip": "serverproject\\Dtos\\CityCountry.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T01:45:12.217Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "CitiesController.cs",
-              "DocumentMoniker": "C:\\Users\\eam70043\\source\\repos\\serverproject\\serverproject\\Controllers\\CitiesController.cs",
-              "RelativeDocumentMoniker": "serverproject\\Controllers\\CitiesController.cs",
-              "ToolTip": "C:\\Users\\eam70043\\source\\repos\\serverproject\\serverproject\\Controllers\\CitiesController.cs",
-              "RelativeToolTip": "serverproject\\Controllers\\CitiesController.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAQwCEAAAAxAAAAAAAAAA==",
+              "Title": "SeedController.cs",
+              "DocumentMoniker": "C:\\Users\\eam70043\\source\\repos\\serverproject\\serverproject\\Controllers\\SeedController.cs",
+              "RelativeDocumentMoniker": "serverproject\\Controllers\\SeedController.cs",
+              "ToolTip": "C:\\Users\\eam70043\\source\\repos\\serverproject\\serverproject\\Controllers\\SeedController.cs",
+              "RelativeToolTip": "serverproject\\Controllers\\SeedController.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAQwCMAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T01:07:58.615Z"
+              "WhenOpened": "2025-03-29T00:18:35.422Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CountriesController.cs",
-              "DocumentMoniker": "C:\\Users\\eam70043\\source\\repos\\serverproject\\serverproject\\Controllers\\CountriesController.cs",
-              "RelativeDocumentMoniker": "serverproject\\Controllers\\CountriesController.cs",
-              "ToolTip": "C:\\Users\\eam70043\\source\\repos\\serverproject\\serverproject\\Controllers\\CountriesController.cs*",
-              "RelativeToolTip": "serverproject\\Controllers\\CountriesController.cs*",
-              "ViewState": "AgIAACYAAAAAAAAAAAAwwDgAAAA2AAAAAAAAAA==",
+              "Title": "WorldCitySourceContext.cs",
+              "DocumentMoniker": "C:\\Users\\eam70043\\source\\repos\\serverproject\\modeldb\\WorldCitySourceContext.cs",
+              "RelativeDocumentMoniker": "modeldb\\WorldCitySourceContext.cs",
+              "ToolTip": "C:\\Users\\eam70043\\source\\repos\\serverproject\\modeldb\\WorldCitySourceContext.cs",
+              "RelativeToolTip": "modeldb\\WorldCitySourceContext.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBsAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T01:09:50.449Z",
+              "WhenOpened": "2025-03-29T00:01:51.633Z",
               "EditorCaption": ""
             }
           ]
