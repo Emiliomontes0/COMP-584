@@ -1,12 +1,10 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Options;
 using modelDB;
-using modelDB.Migrations;
-using System.Transactions;
 using Microsoft.IdentityModel.Tokens;
 using serverproject;
+using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -15,10 +13,48 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+builder.Services.AddSwaggerGen(c => {
+    c.SwaggerDoc("v1", new()
+    {
+        Contact = new()
+        {
+            Email = "emilio@csun.edu",
+            Name = "Emilio Montes",
+            Url = new("https://canvas.csun.edu/courses/128137")
+        },
+        Description = "APIs for World Cities",
+        Title = "World Cities APIs",
+        Version = "V1"
+    });
+    OpenApiSecurityScheme jwtSecurityScheme = new()
+    {
+        Scheme = "bearer",
+        BearerFormat = "JWT",
+        Name = "JWT Authentication",
+        In = ParameterLocation.Header,
+        Type = SecuritySchemeType.Http,
+        Description = "Please enter *only* JWT token",
+        Reference = new OpenApiReference
+        {
+            Id = JwtBearerDefaults.AuthenticationScheme,
+            Type = ReferenceType.SecurityScheme
+        }
+    };
+    c.AddSecurityDefinition(JwtBearerDefaults.AuthenticationScheme, jwtSecurityScheme);
+    c.AddSecurityRequirement(new OpenApiSecurityRequirement
+    {
+        { jwtSecurityScheme, [] }
+    });
+});
+
+
+
 builder.Services.AddDbContext<WorldCitySourceContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnections"))
 );
+builder.Services.AddScoped<JwtHandler>();
+builder.Services.AddIdentity<WorldCityUser, IdentityRole>()
+    .AddEntityFrameworkStores<WorldCitySourceContext>();
 
 builder.Services.AddAuthentication(options =>
 {
@@ -43,10 +79,6 @@ builder.Services.AddAuthentication(options =>
 
     };
 });
-builder.Services.AddIdentity<WorldCityUser, IdentityRole>()
-    .AddEntityFrameworkStores<WorldCitySourceContext>();
-
-builder.Services.AddScoped<JwtHandler>();
 
 var app = builder.Build();
 

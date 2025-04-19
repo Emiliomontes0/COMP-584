@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using modelDB;
@@ -29,6 +25,7 @@ namespace serverproject.Controllers
         }
 
         // GET: api/Countries/5
+        [Authorize]
         [HttpGet("{id}")]
         public async Task<ActionResult<Country>> GetCountry(int id)
         {
@@ -42,7 +39,7 @@ namespace serverproject.Controllers
             return country;
         }
 
-
+        [Authorize]
         [HttpGet("getPopulation{id}")]
         public async Task<ActionResult<CountryPopulation>> GetCountryPopulation(int id)
         {

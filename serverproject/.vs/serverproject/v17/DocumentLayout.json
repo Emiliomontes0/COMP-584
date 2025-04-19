@@ -3,28 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\eam70043\\source\\repos\\serverproject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{87E8B243-D6BD-4127-87D0-04217C8106C6}|serverproject\\serverproject.csproj|c:\\users\\eam70043\\source\\repos\\serverproject\\serverproject\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{87E8B243-D6BD-4127-87D0-04217C8106C6}|serverproject\\serverproject.csproj|solutionrelative:serverproject\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{87E8B243-D6BD-4127-87D0-04217C8106C6}|serverproject\\serverproject.csproj|c:\\users\\eam70043\\source\\repos\\serverproject\\serverproject\\dtos\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87E8B243-D6BD-4127-87D0-04217C8106C6}|serverproject\\serverproject.csproj|solutionrelative:serverproject\\dtos\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87E8B243-D6BD-4127-87D0-04217C8106C6}|serverproject\\serverproject.csproj|c:\\users\\eam70043\\source\\repos\\serverproject\\serverproject\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87E8B243-D6BD-4127-87D0-04217C8106C6}|serverproject\\serverproject.csproj|solutionrelative:serverproject\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87E8B243-D6BD-4127-87D0-04217C8106C6}|serverproject\\serverproject.csproj|c:\\users\\eam70043\\source\\repos\\serverproject\\serverproject\\dtos\\loginresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87E8B243-D6BD-4127-87D0-04217C8106C6}|serverproject\\serverproject.csproj|solutionrelative:serverproject\\dtos\\loginresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{87E8B243-D6BD-4127-87D0-04217C8106C6}|serverproject\\serverproject.csproj|c:\\users\\eam70043\\source\\repos\\serverproject\\serverproject\\controllers\\countriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87E8B243-D6BD-4127-87D0-04217C8106C6}|serverproject\\serverproject.csproj|solutionrelative:serverproject\\controllers\\countriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{87E8B243-D6BD-4127-87D0-04217C8106C6}|serverproject\\serverproject.csproj|c:\\users\\eam70043\\source\\repos\\serverproject\\serverproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{87E8B243-D6BD-4127-87D0-04217C8106C6}|serverproject\\serverproject.csproj|solutionrelative:serverproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87E8B243-D6BD-4127-87D0-04217C8106C6}|serverproject\\serverproject.csproj|c:\\users\\eam70043\\source\\repos\\serverproject\\serverproject\\dtos\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87E8B243-D6BD-4127-87D0-04217C8106C6}|serverproject\\serverproject.csproj|solutionrelative:serverproject\\dtos\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87E8B243-D6BD-4127-87D0-04217C8106C6}|serverproject\\serverproject.csproj|c:\\users\\eam70043\\source\\repos\\serverproject\\serverproject\\jwthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87E8B243-D6BD-4127-87D0-04217C8106C6}|serverproject\\serverproject.csproj|solutionrelative:serverproject\\jwthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{87E8B243-D6BD-4127-87D0-04217C8106C6}|serverproject\\serverproject.csproj|c:\\users\\eam70043\\source\\repos\\serverproject\\serverproject\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{87E8B243-D6BD-4127-87D0-04217C8106C6}|serverproject\\serverproject.csproj|solutionrelative:serverproject\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,84 +26,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "LoginResult.cs",
-              "DocumentMoniker": "C:\\Users\\eam70043\\source\\repos\\serverproject\\serverproject\\Dtos\\LoginResult.cs",
-              "RelativeDocumentMoniker": "serverproject\\Dtos\\LoginResult.cs",
-              "ToolTip": "C:\\Users\\eam70043\\source\\repos\\serverproject\\serverproject\\Dtos\\LoginResult.cs",
-              "RelativeToolTip": "serverproject\\Dtos\\LoginResult.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-05T00:20:56.455Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "LoginRequest.cs",
               "DocumentMoniker": "C:\\Users\\eam70043\\source\\repos\\serverproject\\serverproject\\Dtos\\LoginRequest.cs",
               "RelativeDocumentMoniker": "serverproject\\Dtos\\LoginRequest.cs",
               "ToolTip": "C:\\Users\\eam70043\\source\\repos\\serverproject\\serverproject\\Dtos\\LoginRequest.cs",
               "RelativeToolTip": "serverproject\\Dtos\\LoginRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T23:59:05.476Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AdminController.cs",
-              "DocumentMoniker": "C:\\Users\\eam70043\\source\\repos\\serverproject\\serverproject\\Controllers\\AdminController.cs",
-              "RelativeDocumentMoniker": "serverproject\\Controllers\\AdminController.cs",
-              "ToolTip": "C:\\Users\\eam70043\\source\\repos\\serverproject\\serverproject\\Controllers\\AdminController.cs",
-              "RelativeToolTip": "serverproject\\Controllers\\AdminController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABoAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T23:55:07.557Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "JwtHandler.cs",
-              "DocumentMoniker": "C:\\Users\\eam70043\\source\\repos\\serverproject\\serverproject\\JwtHandler.cs",
-              "RelativeDocumentMoniker": "serverproject\\JwtHandler.cs",
-              "ToolTip": "C:\\Users\\eam70043\\source\\repos\\serverproject\\serverproject\\JwtHandler.cs",
-              "RelativeToolTip": "serverproject\\JwtHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T23:38:42.545Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\eam70043\\source\\repos\\serverproject\\serverproject\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "serverproject\\appsettings.Development.json",
-              "ToolTip": "C:\\Users\\eam70043\\source\\repos\\serverproject\\serverproject\\appsettings.Development.json",
-              "RelativeToolTip": "serverproject\\appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-04T23:26:06.804Z",
+              "WhenOpened": "2025-04-19T00:16:35.954Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\eam70043\\source\\repos\\serverproject\\serverproject\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "serverproject\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\eam70043\\source\\repos\\serverproject\\serverproject\\appsettings.Development.json",
+              "RelativeToolTip": "serverproject\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-18T23:30:25.679Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\eam70043\\source\\repos\\serverproject\\serverproject\\Program.cs",
               "RelativeDocumentMoniker": "serverproject\\Program.cs",
               "ToolTip": "C:\\Users\\eam70043\\source\\repos\\serverproject\\serverproject\\Program.cs",
               "RelativeToolTip": "serverproject\\Program.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAAADAAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAD4AAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T23:00:10.678Z",
+              "WhenOpened": "2025-04-18T23:08:56.932Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CountriesController.cs",
+              "DocumentMoniker": "C:\\Users\\eam70043\\source\\repos\\serverproject\\serverproject\\Controllers\\CountriesController.cs",
+              "RelativeDocumentMoniker": "serverproject\\Controllers\\CountriesController.cs",
+              "ToolTip": "C:\\Users\\eam70043\\source\\repos\\serverproject\\serverproject\\Controllers\\CountriesController.cs",
+              "RelativeToolTip": "serverproject\\Controllers\\CountriesController.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAwwCkAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T22:53:26.116Z",
               "EditorCaption": ""
             }
           ]
